@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neton Browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="browser">
+    <header>
+      <input type="text" id="url" placeholder="Enter URL and press Enter">
+      <button id="back">←</button>
+      <button id="forward">→</button>
+      <button id="reload">⟳</button>
+    </header>
+    <iframe id="webview" src="https://google.com"></iframe>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
